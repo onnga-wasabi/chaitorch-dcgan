@@ -1,0 +1,14 @@
+[general]
+dataroot = "data"
+workers = 16
+batch_size = 128
+gpu = false
+image_size = 64
+epoch = 5
+lr = 0.0002
+beta = 0.5
+
+[model]
+nz = 100  # Size of z latent vector
+ngf = 64
+ndf = 64
